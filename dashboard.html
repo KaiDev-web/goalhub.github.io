@@ -1,0 +1,35 @@
+<!DOCTYPE html>  
+<html lang="it">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Dashboard</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+    <header>  
+        <h1>Benvenuto nella Dashboard</h1>  
+    </header>  
+    <main>  
+        <button id="addGoalButton">+</button>  
+        <div id="goalInput" style="display:none;">  
+            <input type="text" id="goal" placeholder="Inserisci un obiettivo">  
+            <button onclick="addGoal()">Aggiungi Obiettivo</button>  
+        </div>  
+        <div id="calendar">  
+            <!-- Calendario personalizzabile qui -->  
+        </div>  
+        <div class="button-container">  
+            <button onclick="settings()">Impostazioni</button>  
+            <button onclick="logout()">Log Out</button>  
+            <button onclick="account()">Il mio Account</button>  
+            <button onclick="openChat()">Chat Vocali</button>  
+            <button onclick="openBank()">Banca</button>  
+        </div>  
+    </main>  
+    <footer>  
+        <p>© 2024 Mio Progetto</p>  
+    </footer>  
+    <script src="script.js"></script>  
+</body>  
+</html>
