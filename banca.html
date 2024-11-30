@@ -1,0 +1,26 @@
+<!DOCTYPE html>  
+<html lang="it">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Conto Bancario</title>  
+    <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+    <div class="container">  
+        <h2>Il tuo Conto Bancario</h2>  
+        <p>Saldo disponibile: €1000</p>  
+        <button onclick="sendMoney()">Invia Denaro</button>  
+        <div id="contactList" style="display:none;">  
+            <p>Scegli un contatto:</p>  
+            <select id="contacts">  
+                <option value="contatto1">Contatto 1</option>  
+                <option value="contatto2">Contatto 2</option>  
+                <option value="contatto3">Contatto 3</option>  
+            </select>  
+            <button onclick="confirmSend()">Invia</button>  
+        </div>  
+    </div>  
+    <script src="script.js"></script>  
+</body>  
+</html>
